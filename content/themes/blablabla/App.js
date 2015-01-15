@@ -6,7 +6,7 @@ var Single = require('./Single');
 var ErrorPage = require('./Error');
 var ApplicationStore = require('../../../shared/stores/ApplicationStore');
 var RouterMixin = require('flux-router-component').RouterMixin;
-var StoreMixin = require('fluxible-app').StoreMixin;
+var StoreMixin = require('fluxible').StoreMixin;
 var canUseDOM = require('react/lib/ExecutionEnvironment').canUseDOM;
 var Clicky = require('./Clicky');
 
